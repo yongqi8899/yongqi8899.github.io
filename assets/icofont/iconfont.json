@@ -1,0 +1,30 @@
+{
+  "id": "3386822",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "490727",
+      "name": "timeline",
+      "font_class": "timeline",
+      "unicode": "ed62",
+      "unicode_decimal": 60770
+    },
+    {
+      "icon_id": "549660",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "10687038",
+      "name": "menu",
+      "font_class": "menu1",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

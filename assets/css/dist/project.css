@@ -1,0 +1,24 @@
+#app {
+  width: 60vw;
+  display: grid;
+}
+#app > * {
+  grid-area: 1/1;
+}
+
+.item {
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 4rem;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.topImage {
+  background-image: url("https://images.unsplash.com/photo-1646478579232-57ea414aee4f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODY1MTUxNw&ixlib=rb-1.2.1&q=85");
+}
