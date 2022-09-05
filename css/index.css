@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  @apply w-12 mr-2 fill-gold;
+}
+.kontakt {
+  @apply flex items-center justify-start flex-nowrap mt-5;
+}
+.github {
+  @apply px-6 p-2 font-bold text-white bg-gold z-30 mt-1 mb-8 inline-block items-center;
+}
+nav.dropdown {
+  @apply m-auto  flex
+    w-100px
+    h-100px
+    fixed
+    top-20px
+    left-20px
+   text-tiber
+    z-20
+    p-2;
+}
+nav.dropdown:hover .nav-bar {
+  @apply block;
+}
+nav.dropdown:hover .nav-bar .dropdown-content {
+  @apply flex flex-col
+    absolute
+    left-0
+    top-50px;
+}
+nav.dropdown .nav-bar {
+  @apply fixed;
+}
+nav.dropdown .nav-bar .dropbtn {
+  @apply inline-block
+    border-none
+    bg-transparent;
+}
+nav.dropdown .nav-bar .dropbtn:hover {
+  @apply bg-transparent;
+}
+nav.dropdown .nav-bar .dropdown-content {
+  @apply hidden
+    flex-col
+    absolute
+    align-left;
+}
+nav.dropdown .nav-bar .dropdown-content a {
+  @apply leading-8
+    min-w-9
+   block
+    float-left;
+}
+nav.dropdown .nav-bar .dropdown-content a:hover {
+  @apply bg-gold text-white;
+}
+
